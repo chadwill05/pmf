@@ -197,31 +197,40 @@
         </div>
     </section>
 
-                <!-- Shows Section -->
-    <section id="shows" class="shows-section bg-light">
-        <div class="container">
-            <h2 class="text-center">Upcoming Shows</h2>
-            <hr class="divider my-4">
-            <div class="row justify-content-center">
-                <!-- Sample Show Entry -->
-                <div class="col-md-8 col-sm-10 mb-4"> <!-- Increased column size for more padding -->
-                    <div class="card">
-                        <img class="card-img-top" src="static/assets/img/nowhere.jpg" alt="Nowhere_show">
-                        <div class="card-body">
-                            <h5 class="card-title">Tears of House</h5>
-                            <p class="card-text">Fort Lauderdale show!</p>
-                            <a href="#" class="btn btn-primary">More Info</a>
+    <style>
+        .card-img-top {
+            width: 80%; /* Reduce width to 80% of the card */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+        </style>
+        
+        <!-- Shows Section -->
+        <section id="shows" class="shows-section bg-light">
+            <div class="container">
+                <h2 class="text-center">Upcoming Shows</h2>
+                <hr class="divider my-4">
+                <div class="row justify-content-center">
+                    <!-- Sample Show Entry -->
+                    <div class="col-md-6 col-sm-8 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="static/assets/img/nowhere.jpg" alt="Nowhere_show" style="width: 80%; height: auto; margin: 0 auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Tears of House</h5>
+                                <p class="card-text">Fort Lauderdale show!</p>
+                                <a href="#" class="btn btn-primary">More Info</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mt-4">
-                    <a href="https://shotgun.live/events/tears-of-house-saturday-vol-5?utm_source=pmf" class="btn btn-success btn-lg" id="buyTicketsButton">Buy Tickets</a>
+                <div class="row">
+                    <div class="col-12 text-center mt-4">
+                        <a href="https://shotgun.live/events/tears-of-house-saturday-vol-5?utm_source=pmf" class="btn btn-success btn-lg" id="buyTicketsButton">Buy Tickets</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
 
 
 
