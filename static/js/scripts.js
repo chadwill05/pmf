@@ -57,3 +57,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+document.querySelectorAll('.card-img-top').forEach(item => {
+    item.addEventListener('click', function () {
+        // code to open modal and display the full-size flyer
+    });
+});
